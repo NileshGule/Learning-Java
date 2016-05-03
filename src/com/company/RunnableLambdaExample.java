@@ -10,7 +10,7 @@ public class RunnableLambdaExample  {
         Runnable runnableLambda = () -> {
             for (int i = 0; i < 3; ++i) {
                 System.out.println("Hello World from Thread [" +
-                        Thread.currentThread().getName() + " ]");
+                        Thread.currentThread().getName() + " ] " + i);
             }
         };
 
