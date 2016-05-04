@@ -31,8 +31,10 @@ public class ComparatorLambda {
         // V4 -> most advanced lambda version with inlined expression instead of comparator
         list.sort((s1, s2) -> Integer.compare(s1.length(), s2.length()));
 
-        for(String s : list){
-            System.out.println(s);
-        }
+//        for(String s : list){
+//            System.out.println(s);
+//        }
+
+        list.forEach(System.out::println);
     }
 }
