@@ -35,6 +35,8 @@ public class ComparatorLambda {
 //            System.out.println(s);
 //        }
 
+        //V5 -> using forEach on list
+        //v6 -> using method reference syntax for println
         list.forEach(System.out::println);
     }
 }
