@@ -1,4 +1,4 @@
-package com.company;
+package com.newinjava8.lambda;
 
 /**
  * Created by Nilesh on 5/3/2016.

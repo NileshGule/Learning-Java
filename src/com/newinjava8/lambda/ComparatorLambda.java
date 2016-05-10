@@ -1,4 +1,4 @@
-package com.company;
+package com.newinjava8.lambda;
 
 import java.util.Arrays;
 import java.util.Comparator;
