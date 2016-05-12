@@ -17,6 +17,13 @@ public class IntermediaryAndFinal {
 
         List<String> list = new ArrayList<>();
 
+        //itermediary operation, does not trigger processing of data
+//        stream
+//                .peek(System.out::println)
+//                .filter(p1.or(p2))
+//                .peek(list::add);
+
+        //final operation, triggered by using forEach instead of peek
         stream
                 .peek(System.out::println)
                 .filter(p1.or(p2))
