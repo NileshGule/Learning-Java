@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="949d014e-29cb-491f-8bbe-24597a8b3cf7" name="Default" comment="removed default documentation template in ComparatorLambda class&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/newinjava8/model/Person.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Learning Java/com/company/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Learning Java/com/company/RunnableLambdaExample.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newinjava8/DateAPI/DateAndTime.java" afterPath="$PROJECT_DIR$/src/com/newinjava8/DateAPI/DateAndTime.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/newinjava8/lambda/ComparatorLambda.java" afterPath="$PROJECT_DIR$/src/com/newinjava8/lambda/ComparatorLambda.java" />
     </list>
     <list id="3e6fcb3b-696d-4b3a-ad8f-3aedf6c4ae94" name="Rejected commit: Default" comment="inlined lambda expression instead of FileFilter instance in Main.java &#10;created ComparatorLambda class" />
     <ignored path="Learning Java.iws" />
@@ -29,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DateAndTime.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/newinjava8/DateAPI/DateAndTime.java">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/newinjava8/model/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="44">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,7 +68,6 @@
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/ComparatorLambda.java" />
         <option value="$PROJECT_DIR$/src/com/newinjava8/streams/FirstPredicate.java" />
-        <option value="$PROJECT_DIR$/src/com/newinjava8/model/Person.java" />
         <option value="$PROJECT_DIR$/src/com/newinjava8/streams/CollectorsExample.java" />
         <option value="$PROJECT_DIR$/src/com/newinjava8/streams/FlatMapExample.java" />
         <option value="$PROJECT_DIR$/src/com/newinjava8/streams/IntermediaryAndFinal.java" />
@@ -81,6 +75,7 @@
         <option value="$PROJECT_DIR$/src/com/newinjava8/DateAndTime.java" />
         <option value="$PROJECT_DIR$/src/com/newinjava8/lambda/ComparatorLambda.java" />
         <option value="$PROJECT_DIR$/src/com/newinjava8/DateAPI/DateAndTime.java" />
+        <option value="$PROJECT_DIR$/src/com/newinjava8/model/Person.java" />
       </list>
     </option>
   </component>
@@ -635,7 +630,14 @@
       <option name="project" value="LOCAL" />
       <updated>1463672366579</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="removed default documentation template in ComparatorLambda class&#10;">
+      <created>1472874332787</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1472874332787</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -745,7 +747,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-          <folding />
+          <folding>
+            <marker date="1472874299354" expanded="false" signature="40:136" ph="..." />
+            <marker date="1472874299354" expanded="true" signature="208:607" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -787,7 +792,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1472874299354" expanded="false" signature="40:136" ph="..." />
+            <marker date="1472874299354" expanded="true" signature="208:607" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -815,7 +823,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1472874299354" expanded="false" signature="40:136" ph="..." />
+            <marker date="1472874299354" expanded="true" signature="208:607" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -843,7 +854,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1472874299354" expanded="false" signature="40:136" ph="..." />
+            <marker date="1472874299354" expanded="true" signature="208:607" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -871,7 +885,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1472874299354" expanded="false" signature="40:136" ph="..." />
+            <marker date="1472874299354" expanded="true" signature="208:607" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -899,7 +916,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1472874299354" expanded="false" signature="40:136" ph="..." />
+            <marker date="1472874299354" expanded="true" signature="208:607" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1091,13 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/newinjava8/model/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/newinjava8/streams/people.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1150,6 +1163,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1472874299354" expanded="false" signature="40:136" ph="..." />
+            <marker date="1472874299354" expanded="true" signature="208:607" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/newinjava8/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>

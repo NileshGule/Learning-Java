@@ -1,8 +1,5 @@
 package com.newinjava8.model;
 
-/**
- * Created by Nilesh on 5/10/2016.
- */
 public class Person {
     private String name;
     private int age;
