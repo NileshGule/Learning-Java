@@ -3,7 +3,6 @@ package com.newinjava8.dateapi;
 import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDate;
-import java.util.Date;
 
 public class DateAndTime {
     public static void main(String... args){
@@ -19,6 +18,5 @@ public class DateAndTime {
 
         System.out.println(currentDate);
 
-        Date firstDate = new Date();
     }
 }

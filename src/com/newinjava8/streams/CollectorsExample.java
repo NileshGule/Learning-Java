@@ -9,9 +9,6 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/**
- * Created by Nilesh on 5/10/2016.
- */
 public class CollectorsExample {
     public static void main(String... args) {
 
@@ -21,7 +18,7 @@ public class CollectorsExample {
                 BufferedReader reader = new BufferedReader(
                         new InputStreamReader(CollectorsExample.class.getResourceAsStream("people.txt")));
 
-                Stream<String> stream = reader.lines();
+                Stream<String> stream = reader.lines()
         ) {
             stream.map(line -> {
                 String[] s = line.split(" ");

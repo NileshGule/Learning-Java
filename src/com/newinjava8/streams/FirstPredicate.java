@@ -3,12 +3,9 @@ package com.newinjava8.streams;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
-/**
- * Created by Nilesh on 5/10/2016.
- */
 public class FirstPredicate {
 
-    public static void main(String... args){
+    public static void main(String... args) {
         Stream<String> stream = Stream.of("one", "two", "three", "four");
 
         Predicate<String> p1 = s -> s.length() > 3;
@@ -18,6 +15,6 @@ public class FirstPredicate {
 
         //stream.filter(p2.or(p3))
         stream.filter(p1.or(p2).or(p3))
-                .forEach(s -> System.out.println(s));
+                .forEach(System.out::println);
     }
 }
