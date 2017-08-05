@@ -15,7 +15,6 @@ public class FlatMapExample {
 
         List<List<Integer>> list = Arrays.asList(list1, list2, list3);
 
-        Function<List<?>, Integer> size = List::size;
         Function<List<Integer>, Stream<Integer>> flatMapper = Collection::stream;
 
         list.stream().flatMap(flatMapper).forEach(System.out::println);
